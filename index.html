@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangalore Nearby Areas Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="map" style="height: 500px; width: 100%;"></div>
+    <div id="status">Select a start location</div>
+    <button onclick="findPath()" id="findPathBtn" disabled>Find Path</button>
+    <button onclick="resetLocations()">Reset</button>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4KXwgW6_zRTg9A80Rt5tzeOm7gAmiCiU&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
